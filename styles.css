@@ -62,22 +62,22 @@ html {
 }
 
 .blob1 {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background: linear-gradient(216deg, #FFDD2D 16.91%, #F79510 66.69%);
     filter: blur(100px);
     position: absolute;
     opacity: 0.5;
-    top: 0;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, 10%);
     animation: light 3s ease-in-out alternate infinite;
 }
 
 .blob3 {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background: linear-gradient(216deg, #FFDD2D 16.91%, #F79510 66.69%);
     position: absolute;
@@ -723,44 +723,11 @@ html {
         padding-top: 0;
     }
 
-    .clever1 {
-        width: 583px;
-        height: 420px;
-        bottom: 0;
-        left: 0;
-        transform: translate(-18%, 38%);
-        animation: a1 5s infinite ease-in-out alternate;
-    }
 
     .coin4 {
-        width: 350px;
-        height: 350px;
-    }
-
-    .clever2 {
-        width: 289.123px;
-        height: 303.158px;
-        transform: rotate(3deg) translate(-50%, 30%);
-        bottom: 0;
-        right: unset;
-        left: 50%;
-        filter: blur(5.599999904632568px);
-        animation: a3 6s infinite ease-in-out alternate;
-    }
-
-    .clever3 {
-        width: 357.391px;
-        height: 374.74px;
-        transform: rotate(306deg);
-        right: -4%;
-        bottom: -8%;
-        background-size: contain;
-        background-position: center;
-        background-image: url("./assets/clever.png");
-        position: absolute;
-        filter: blur(5.599999904632568px);
-        z-index: 1;
-        animation: a2 5s infinite ease-in-out alternate;
+        width: 300px;
+        height: 300px;
+        right: 5%;
     }
 
     .coin1 {
@@ -782,8 +749,8 @@ html {
     }
 
     .coin3 {
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         top: unset;
         left: unset;
         right: 10%;
