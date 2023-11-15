@@ -56,7 +56,7 @@ html {
     background-color: #040D22;
     background-size: cover;
     padding-top: 91px;
-    padding-bottom: 12px;
+    padding-bottom: 30px;
     overflow: hidden;
     background-position: center;
 }
@@ -66,10 +66,10 @@ html {
     height: 200px;
     border-radius: 50%;
     background: linear-gradient(216deg, #FFDD2D 16.91%, #F79510 66.69%);
-    filter: blur(100px);
+    filter: blur(50px);
     position: absolute;
     opacity: 0.5;
-    top: 20%;
+    top: 22%;
     left: 50%;
     transform: translate(-50%, 10%);
     animation: light 3s ease-in-out alternate infinite;
@@ -81,7 +81,7 @@ html {
     border-radius: 50%;
     background: linear-gradient(216deg, #FFDD2D 16.91%, #F79510 66.69%);
     position: absolute;
-    filter: blur(80px);
+    filter: blur(40px);
     left: 50%;
     top: 50%;
     transform: translate(-50%, -30%);
@@ -96,7 +96,7 @@ html {
     }
 
     to {
-        opacity: 0.6;
+        opacity: 0.2;
     }
 }
 
@@ -521,14 +521,14 @@ html {
 
     .symbol2 {
         width: 200px;
-        height: 300px;
+        height: 200px;
         background-repeat: no-repeat;
         transform: rotate(3deg) translate(-50%, 30%);
         top: unset;
         filter: blur(2px);
-        bottom: 0;
-        right: -10%;
-        z-index: 5;
+        bottom: -10%;
+        right: 0;
+        z-index: 2;
         animation: a3 6s infinite ease-in-out alternate;
     }
 
@@ -668,14 +668,15 @@ html {
     }
 
     .symbol1 {
-        width: 400px;
-        height: 420px;
+        width: 300px;
+        height: 300px;
 
     }
 
     .symbol2 {
-        width: 500px;
+        width: 300px;
         height: 300px;
+        bottom: -15%;
     }
 
     .main {
@@ -730,14 +731,15 @@ html {
 
 
     .coin4 {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         right: 5%;
+        top: 15%;
     }
 
     .coin1 {
-        width: 300.834px;
-        height: 300px;
+        width: 200.834px;
+        height: 200px;
         transform: rotate(56.618deg);
         z-index: 1;
         left: 0;
@@ -754,13 +756,51 @@ html {
     }
 
     .coin3 {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         top: unset;
         left: unset;
         right: 10%;
-        bottom: 5%;
+        bottom: 20%;
         rotate: 270deg;
         filter: blur(2.599999904632568px);
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .coin4 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .coin1 {
+        width: 300.834px;
+        height: 300px;
+
+    }
+
+    .coin2 {
+        width: 200.282px;
+        height: 200.983px;
+
+    }
+
+    .coin3 {
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .symbol1 {
+        width: 400px;
+        height:400px;
+
+    }
+
+    .symbol2 {
+        width: 400px;
+        height:400px;
+        bottom: -25%;
     }
 }
