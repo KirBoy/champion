@@ -666,7 +666,7 @@ html {
     }
 
     .bannerContent {
-        width: 420px;
+        width: 450px;
         max-width: 100%;
         background: unset;
         height: unset;
@@ -745,7 +745,7 @@ html {
     }
 
     .bannerInner {
-        width: 420px;
+        width: 450px;
         max-width: 100%;
         background: unset;
         padding-top: 0;
