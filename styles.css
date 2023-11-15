@@ -498,6 +498,11 @@ html {
         transform: translate(10%, -50%);
     }
 
+    .blob3 {
+        width: 200px;
+        height: 200px;
+    }
+
     .deskElements {
         display: block;
     }
