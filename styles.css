@@ -215,7 +215,7 @@ html {
     }
 
     to {
-        transform: rotate(-80deg) translate(-45%,-50%)
+        transform: rotate(-50deg) translate(-45%, -5%)
     }
 }
 
@@ -551,7 +551,7 @@ html {
         bottom: -10%;
         right: 0;
         z-index: 2;
-        animation: a3 13s infinite ease-in-out alternate;
+        animation: a3 6s infinite ease-in-out alternate;
     }
 
     .coin1 {
@@ -816,13 +816,13 @@ html {
 
     .symbol1 {
         width: 400px;
-        height:400px;
+        height: 400px;
 
     }
 
     .symbol2 {
         width: 400px;
-        height:400px;
+        height: 400px;
         bottom: -25%;
     }
 }
