@@ -76,27 +76,27 @@ html {
 }
 
 .blob3 {
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background: linear-gradient(216deg, #FFDD2D 16.91%, #F79510 66.69%);
     position: absolute;
-    filter: blur(50px);
+    filter: blur(80px);
     left: 50%;
     top: 50%;
     transform: translate(-50%, -30%);
-    z-index: 0;
-    opacity: 0.5;
+    opacity: 0.8;
+    z-index: 1;
     animation: light 5s ease-in-out alternate infinite;
 }
 
 @keyframes light {
     from {
-        opacity: 0.4;
+        opacity: 0.8;
     }
 
     to {
-        opacity: 0.2;
+        opacity: 0.6;
     }
 }
 
@@ -290,12 +290,37 @@ html {
 .arrowR {
     position: absolute;
     left: 43px;
+    animation: flick2 0.8s linear infinite alternate;
 }
 
 .arrowL {
     position: absolute;
     right: 43px;
+    animation: flick 0.8s linear infinite alternate;
 }
+
+
+@keyframes flick {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(8px);
+    }
+}
+
+
+@keyframes flick2 {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(-8px);
+    }
+}
+
 
 .bottom {
     position: relative;
@@ -304,32 +329,6 @@ html {
     padding: 0 5px;
 }
 
-.button:after {
-    content: '';
-    width: 73px;
-    height: 100%;
-    position: absolute;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(217, 217, 217, 0.00) 100%);
-
-    transform: skew(-30deg);
-    top: 0;
-    left: -100px;
-    transition: left 0.2s linear;
-    animation: blink 3s linear infinite;
-}
-
-
-@keyframes blink {
-    0% {
-        left: -600px;
-    }
-    50% {
-        left: 50px
-    }
-    100% {
-        left: 850px;
-    }
-}
 
 .banner {
     position: relative;
@@ -393,10 +392,9 @@ html {
 
 .text3 {
     position: relative;
-    z-index: 2;
-    background: linear-gradient(216deg, #FFDD2D 16.91%, #F79510 66.69%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    z-index: 3;
+    color: #FFDD2D;
+    text-shadow: 0px 4px 144px #FDC825, 0px 5px 5px #000;
     font-size: 86px;
     font-style: italic;
     margin-bottom: -7px;
@@ -405,10 +403,8 @@ html {
 .text4 {
     position: relative;
     z-index: 2;
-    background: linear-gradient(253deg, #FFDD2D 13.8%, #F79510 103.98%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #FFDD2D;
+    text-shadow: 0px 4px 144px #FDC825, 0px 5px 5px #000;
     font-size: 33px;
     font-style: italic;
     margin-bottom: 15px;
