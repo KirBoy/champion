@@ -205,7 +205,7 @@ html {
     }
 
     to {
-        transform: rotate(-30deg) translate(-50%, 25%)
+        transform: rotate(-110deg) translate(-5%, -100%)
     }
 }
 
@@ -311,6 +311,16 @@ html {
     }
 }
 
+
+@keyframes sdfsdfdf {
+    from {
+        transform: rotate(3deg) translate(-50%, 30%);
+    }
+
+    to {
+        transform: rotate(3deg) translate(-50%, 30%);
+    }
+}
 
 .bottom {
     position: relative;
@@ -530,8 +540,8 @@ html {
         filter: blur(2px);
         bottom: -10%;
         right: 0;
-        z-index: 2;
-        animation: a3 6s infinite ease-in-out alternate;
+        z-index: 1;
+        animation: a3 10s infinite ease-in-out alternate;
     }
 
     .coin1 {
@@ -762,8 +772,8 @@ html {
         height: 200px;
         top: unset;
         left: unset;
-        right: 10%;
-        bottom: 20%;
+        right: 20%;
+        bottom: 15%;
         rotate: 270deg;
         filter: blur(2.599999904632568px);
     }
