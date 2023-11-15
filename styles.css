@@ -491,6 +491,7 @@ html {
     }
 
     .blob1 {
+        filter: blur(150px);
         width: 500px;
         height: 500px;
         top: 50%;
@@ -499,6 +500,7 @@ html {
     }
 
     .blob3 {
+        filter: blur(80px);
         width: 200px;
         height: 200px;
     }
